@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@keyframes section{
+    from{
+        rotate: 360deg;
+    }
+}
+
+@keyframes sol {
+    100%{
+        box-shadow: 0px 0px 90px 10px yellow;
+    }
+
+    50%{
+        box-shadow: 0px 0px 90px 15px orange;
+        rotate: -45deg;
+
+    }
+    0%{
+        box-shadow: 0px 0px 90px 20px rgb(255, 102, 0);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes terra{
+    100%{
+        rotate: 360deg;
+    }
+}
+
+@keyframes lua1{
+    100%{
+        rotate: 360deg;
+    }
+}
+
+@keyframes lua{
+    100%{
+        rotate: -360deg;
+    }
+}
